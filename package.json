@@ -1,0 +1,26 @@
+{
+  "name": "jsunga-lib",
+  "version": "1.0.0",
+  "description": "react component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Jay Sunga",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/react": "^18.2.7",
+    "react": "^17.0.2",
+    "rollup": "^3.23.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4"
+  },
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
